@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Multiplicación</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="multiplicacion.js" defer></script> <!-- Se conecta el script -->
+</head>
+<body>
+    <h1>Formulario</h1>
+
+    <form id="formulario">
+        <label>Nombre: </label>
+        <input type="text" name="Nombre" placeholder="Ingresa tu nombre">
+
+        <br><br>
+
+        <label>Primer número: </label>
+        <input type="number" id="numero1" placeholder="Ingresa el primer número">
+
+        <br><br>
+
+        <label>Segundo número: </label>
+        <input type="number" id="numero2" placeholder="Ingresa el segundo número">
+
+        <br><br>
+
+        <button type="button" onclick="multiplicar()">Multiplicar</button>
+    </form>
+
+    <br>
+    <p id="resultado"></p>
+
+</body>
+</html>
+
